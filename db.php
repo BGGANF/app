@@ -5,13 +5,13 @@
  */
 class Db{
     static private $_instance;
+    static private $_connectSource;
     private $_dbConfig = array(
             'host' => '127.0.0.1',
             'user' => 'root',
             'password' => 'wing-root',
             'database' => 'app',
         );
-    static private $_connectSource;
 
     private function __construct(){
         

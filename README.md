@@ -1,2 +1,2 @@
 # app
-php Application Interface demo
+php application Interface demo
